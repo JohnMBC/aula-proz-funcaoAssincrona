@@ -1,0 +1,29 @@
+/* Centralizar o relógio */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+  
+  /* Container do relógio */
+  .clock-container {
+    text-align: center;
+    padding: 20px;
+    border: 3px solid #61dafb;
+    border-radius: 10px;
+    background-color: #20232a;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Estilo do texto do relógio */
+  #clock {
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
